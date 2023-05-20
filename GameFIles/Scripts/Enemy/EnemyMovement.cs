@@ -53,7 +53,6 @@ public class EnemyMovement : MonoBehaviour
     //    if (rigidbody.velocity.y < -0.01F) { fall = true; }
     //    else { fall = false; }
     //}
-
     private void TurnBack()
     {
         _rayCastForTurnBack = Physics2D.Raycast(_checkForTurnBackPoint.position, Vector2.down, 0.3F);
