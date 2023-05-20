@@ -18,7 +18,6 @@ public class EnemyMovement : MonoBehaviour
 
     private int _moveDirection;
 
-
     private void OnEnable()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
